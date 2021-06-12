@@ -1,0 +1,20 @@
+@import-normalize;
+@import 'btns.css';
+@import 'recipe-list.css';
+@import 'ingredient.css';
+@import 'recipe-edit.css';
+@import 'recipe.css';
+*,*::after,*::before{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 20px;
+}
+.mr-1{
+    margin-right:5px ;
+}
