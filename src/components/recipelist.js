@@ -6,6 +6,11 @@ export default function Recipelist({recipe}) {
     const {handelRecipeAdd}=useContext(ResipeContext)
     return (
         <>
+        <div className="dont_display_on_smaller_screen">
+            <h1><p>Website currently works only on Desktop view</p>
+                
+            </h1>
+        </div>
         <div className="recipe-list">
         <div>
             {recipe.map(res=>{
